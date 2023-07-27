@@ -1,5 +1,6 @@
 import React from "react";
 import "./TradeChart.css";
+import data from "./data";
 import {
   LineChart,
   Line,
@@ -12,45 +13,6 @@ import {
 } from "recharts";
 
 export default function TradeChart() {
-  const data = [
-    {
-      name: "Jan",
-      User: 4490,
-    },
-    {
-      name: "Feb",
-      User: 3390,
-    },
-    {
-      name: "Mar",
-      User: 2490,
-    },
-    {
-      name: "Jul",
-      User: 4290,
-    },
-    {
-      name: "Aug",
-      User: 4490,
-    },
-    {
-      name: "Sep",
-      User: 990,
-    },
-    {
-      name: "Oct",
-      User: 2490,
-    },
-    {
-      name: "Nov",
-      User: 249,
-    },
-    {
-      name: "Dec",
-      User: 290,
-    },
-  ];
-
   return (
     <div className="TradeChart">
       <h3 className="chartTitle">Sales Analytics</h3>

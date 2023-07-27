@@ -1,5 +1,5 @@
 import React from "react";
-import "./topbar.css";
+import "./NavBar.css";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import LanguageIcon from "@mui/icons-material/Language";
 import SettingsIcon from "@mui/icons-material/Settings";

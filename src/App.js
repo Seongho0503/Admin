@@ -1,12 +1,12 @@
 import "./App.css";
-import Topbar from "./components/topbar/Topbar";
-import Sidebar from "./components/sidebar/sidebar";
+import NavBar from "./components/navbar/NavBar";
+import Sidebar from "./components/sidebar/SideBar";
 import Home from "./pages/home";
 
 function App() {
   return (
     <div className="App">
-      <Topbar />
+      <NavBar />
       <div className="container">
         <Sidebar />
         <Home />

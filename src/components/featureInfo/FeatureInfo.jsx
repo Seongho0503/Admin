@@ -1,5 +1,5 @@
 import React from "react";
-import "./featureinfo.css";
+import "./FeatureInfo.css";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 

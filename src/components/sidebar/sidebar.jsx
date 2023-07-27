@@ -1,5 +1,5 @@
 import React from "react";
-import "./sidebar.css";
+import "./SideBar.css";
 import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
